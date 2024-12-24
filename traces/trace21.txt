@@ -1,0 +1,9 @@
+#
+# trace21.txt - Tests whether the shell can handle both I/O redirection when pipes exist
+#
+
+/bin/echo -e tsh\076 ./digit zero \074 output.txt \0174 ./number \076 output2.txt
+./digit zero < output.txt | ./number > output2.txt
+
+/bin/echo -e tsh\076 /bin/cat \074 output2.txt
+/bin/cat < output2.txt

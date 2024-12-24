@@ -1,0 +1,6 @@
+#
+# trace20.txt - Tests whether the shell can handle input redirection when a pipe exists
+#
+
+/bin/echo -e tsh\076 ./digit \074 output.txt \0174 ./number
+./digit < output.txt | ./number

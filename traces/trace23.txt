@@ -1,0 +1,6 @@
+#
+# trace22.txt - Simple error handling when pipes exist
+#
+
+/bin/echo -e tsh\076 ./digit zero \0174 ./bogus
+./digit zero | ./bogus

@@ -1,0 +1,6 @@
+#
+# trace22.txt - Tests whether the shell can handle multiple pipe operations
+#
+
+/bin/echo -e tsh\076 ./digit four \0174 ./mul2 \0174 ./mul2 \0174 ./mul2 \0174 mul2
+./digit four | ./mul2 | ./mul2 | ./mul2 | ./mul2

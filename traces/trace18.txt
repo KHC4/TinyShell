@@ -1,0 +1,5 @@
+#
+# trace18.txt - Tests whether one pipe works
+#
+/bin/echo -e tsh\076 ./digit zero \0174 ./number
+./digit zero | ./number
